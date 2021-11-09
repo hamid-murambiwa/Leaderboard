@@ -1,0 +1,95 @@
+
+body h1 {
+  font-size: 42px;
+  margin-left: 45px;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: auto;
+}
+
+#list {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  align-items: flex-end;
+  margin-left: 50px;
+}
+
+#list ul {
+  width: 100%;
+  border: 3px solid black;
+  height: auto;
+}
+
+#list ul li {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  height: 40px;
+  width: 100%;
+  border: 1px solid rgb(141, 179, 179);
+}
+
+#list ul li:nth-child(odd) {
+  background-color: rgb(141, 179, 179);
+  width: 100%;
+  border: 0.5px solid black;
+}
+
+#list ul li p {
+  padding-left: 10px;
+  width: 100%;
+}
+
+#L-con {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+
+#L-con button {
+  height: auto;
+  width: auto;
+  padding: 9px;
+  border: 3px solid black;
+  border-radius: 4px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#add {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: auto;
+  align-items: flex-end;
+}
+
+#add input {
+  margin-bottom: 10px;
+  width: 400px;
+  height: 40px;
+}
+
+#add button {
+  width: auto;
+  height: auto;
+  padding: 9px;
+  border: 3px solid black;
+  border-radius: 4px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#footer {
+  height: 50px;
+  width: 98.5%;
+  border: 3px solid black;
+  margin-top: 200px;
+}
