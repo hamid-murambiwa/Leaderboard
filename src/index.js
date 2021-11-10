@@ -1,7 +1,6 @@
 import './style.css';
 import './build.html';
 
-// 
 const div = document.getElementById('names');
 const ul = document.createElement('ul');
 for (let i = 0; i < 8; i++) {
