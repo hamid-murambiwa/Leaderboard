@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://hamid-murambiwa.github.io/To-Do-list/)
+[Live Demo Link]()
 
 
 ## Getting Started
