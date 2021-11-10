@@ -1,4 +1,3 @@
-# Leaderboard![screenshot]()
 
 # Leaderboard Project
 
