@@ -1,4 +1,4 @@
-# Leaderboard![screenshot](https://github.com/hamid-murambiwa/to-do-list-img/blob/main/Screenshot%202021-10-25%20at%2010.24.20.png)
+# Leaderboard![screenshot]()
 
 # Leaderboard Project
 
