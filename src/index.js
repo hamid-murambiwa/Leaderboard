@@ -1,13 +1,15 @@
 import './style.css';
 import './build.html';
+import { getScores, addScore } from './API.js';
 
-const div = document.getElementById('names');
-const ul = document.createElement('ul');
-for (let i = 0; i < 8; i++) {
-  const li = document.createElement('li');
-  const p = document.createElement('p');
-  p.innerText = '100';
-  li.appendChild(p);
-  ul.appendChild(li);
-}
-div.appendChild(ul);
+getScores();
+
+document.getElementById('submit').addEventListener('click', (e) => {
+  e.preventDefault();
+  addScore();
+});
+
+document.getElementById('refresh').addEventListener('click', (e) => {
+  e.preventDefault();
+  getScores();
+});

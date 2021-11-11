@@ -1,64 +1,62 @@
-# Leaderboard Project
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-> A JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules. 
+# TO-DO-LIST
+
+> This project was built for Microverse [under these guidance objectives](https://github.com/microverseinc/curriculum-javascript/blob/main/todo-list/m1_list_structure.md)
+> _note: you can only access this link if you're a Micronault (Microverse Student)_
+
+Additional description about the project and its features.
+
+## Live Demo
+> Click [here](https://chimwemwe-127001.github.io/toDoList/) to view the project live demo.
 
 ## Built With
 
-- Javascript
 - HTML
 - CSS
-- Webpack
-
-## Live Demo
-
-[Live Demo Link]()
-
+- JAVASCRIPT
+- WEBPACK
 
 ## Getting Started
+> To get started:
+> clone the repo...
 
-To get a local copy up and running follow these simple example steps.
-### Setup
+  `git clone https://github.com/Chimwemwe-127001/toDoList.git`
 
-Run `git clone https://github.com/uzairali19/awesome-books`
-### Run tests
+> navigate to repo dir...
 
-For Linters:
+  ```cd toDoList```
 
-```bash
-# To check for HTML errors
-npx hint .
+> install project dependencies
 
-# To check for CSS errors
-npx stylelint "**/*.{css,scss}"
+  ```npm install```
 
-# To check for Javascript errors
-npx eslint .
-```
+> build project
+
+  ```npm run build```
+
+> start project
+
+  ```npm start```
+
 ## Authors
+
+👤 **Chimwemwe Sinyinza**
+
+- GitHub: [@Chimwemwe-127001](https://github.com/Chimwemwe-127001)
+- Twitter: [@chimwewme](https://twitter.com/chimwewme)
 
 👤 **Hamid Murambiwa**
 
-- GitHub: [@githubhandle](https://github.com/hamid-murambiwa)
-- Twitter: [@twitterhandle](https://twitter.com/Hamid87789454)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/hamid-murambiwa-8a9a9520a/)
-
+- GitHub: [@hamid-murambiwa](https://github.com/hamid-murambiwa)
+- Twitter: [@Hamid87789454](https://twitter.com/Hamid87789454)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/hamid-murambiwa/To-Do-list/issues).
+Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
