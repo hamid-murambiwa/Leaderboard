@@ -1,13 +1,12 @@
+/* eslint-disable */
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  entry: {
-    index: './src/index.js',
-    build: './src/build.html'
-  },
+  mode: 'none',
+  entry: './src/index.js',
   devServer: {
-    static: './dist',
+    static: 'dist',
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -15,35 +14,21 @@ module.exports = {
     }),
   ],
   output: {
-    filename: '[name].bundle.js',
+    filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
     clean: true,
-    publicPath: '/',
+    publicPath: "/toDoList/",
   },
   module: {
     rules: [
-      {
-        test: /\.html$/i,
-        loader: 'html-loader',
-        options: {},
-      },
       {
         test: /\.css$/i,
         use: ['style-loader', 'css-loader'],
       },
       {
-        test: /\.m?js$/,
-        exclude: /(node_modules|bower_components)/,
-        use: {
-          loader: 'babel-loader',
-          options: {
-            presets: ['@babel/preset-env']
-          }
-        }
+        test: /\.html$/i,
+        loader: "html-loader",
       },
     ],
-  },
-  resolve: {
-    roots: [path.resolve(__dirname, 'fixtures')],
   },
 };
