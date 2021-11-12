@@ -6,9 +6,6 @@
 
 In this project I had to set up a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules
 
-## Live Demo
-> Click [here]() to view the project live demo.
-
 ## Built With
 
 - HTML
