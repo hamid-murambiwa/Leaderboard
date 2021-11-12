@@ -1,14 +1,14 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# TO-DO-LIST
+# Leaderboard
 
-> This project was built for Microverse [under these guidance objectives](https://github.com/microverseinc/curriculum-javascript/blob/main/todo-list/m1_list_structure.md)
+> This project was built for Microverse [under these guidance objectives]()
 > _note: you can only access this link if you're a Micronault (Microverse Student)_
 
-Additional description about the project and its features.
+In this project I had to set up a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules
 
 ## Live Demo
-> Click [here](https://chimwemwe-127001.github.io/toDoList/) to view the project live demo.
+> Click [here]() to view the project live demo.
 
 ## Built With
 
@@ -21,7 +21,7 @@ Additional description about the project and its features.
 > To get started:
 > clone the repo...
 
-  `git clone https://github.com/Chimwemwe-127001/toDoList.git`
+  `git clone https://github.com/hamid-murambiwa/Leaderboard.git`
 
 > navigate to repo dir...
 
@@ -40,11 +40,6 @@ Additional description about the project and its features.
   ```npm start```
 
 ## Authors
-
-👤 **Chimwemwe Sinyinza**
-
-- GitHub: [@Chimwemwe-127001](https://github.com/Chimwemwe-127001)
-- Twitter: [@chimwewme](https://twitter.com/chimwewme)
 
 👤 **Hamid Murambiwa**
 

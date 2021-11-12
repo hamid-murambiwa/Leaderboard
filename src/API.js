@@ -1,6 +1,7 @@
 const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/xJG2mdwj5m9C9rOtT2IJ/scores/';
 const ul = document.getElementById('names');
-function displayScores(list) {
+
+const displayScores = (list) => {
   ul.textContent = '';
   list.forEach((score) => {
     const li = document.createElement('li');
@@ -13,7 +14,8 @@ function displayScores(list) {
     li.append(userName, userScore);
     ul.appendChild(li);
   });
-}
+};
+
 const getScores = async () => {
   const response = await fetch(url);
   const scores = await response.json();
@@ -35,4 +37,5 @@ const addScore = async () => {
   document.querySelector('#name').value = '';
   document.querySelector('#score').value = '';
 };
+
 export { getScores, displayScores, addScore };
