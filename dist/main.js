@@ -345,12 +345,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(10);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(11);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
 // Imports
 
 
+
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(12), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\nbody h1 {\n  font-size: 42px;\n  margin-left: 45px;\n}\n\n#container {\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n  height: auto;\n}\n\n#list {\n  display: flex;\n  flex-direction: column;\n  width: 40%;\n  align-items: flex-end;\n  margin-left: 50px;\n}\n\n#names {\n  width: 35vw;\n  border: 3px solid black;\n  height: auto;\n}\n\n#names li {\n  display: flex;\n  align-items: center;\n  list-style: none;\n  height: 40px;\n  width: 100%;\n  border: 1px solid rgb(141, 179, 179);\n}\n\n#names li:nth-child(even) {\n  background-color: rgb(141, 179, 179);\n  width: 100%;\n  border: 0.5px solid black;\n}\n\n.span {\n  margin-left: 10px;\n}\n\n#L-con {\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n  justify-content: space-between;\n  width: 80%;\n}\n\n#L-con button {\n  height: auto;\n  width: auto;\n  padding: 9px;\n  border: 3px solid black;\n  border-radius: 4px;\n  background-color: transparent;\n  cursor: pointer;\n}\n\n#add {\n  display: flex;\n  flex-direction: column;\n  width: 40%;\n  height: auto;\n  align-items: center;\n}\n\n#add input {\n  margin-bottom: 10px;\n  width: 400px;\n  height: 40px;\n  padding-left: 5px;\n}\n\n#add button {\n  width: auto;\n  height: auto;\n  padding: 9px;\n  border: 3px solid black;\n  border-radius: 4px;\n  background-color: transparent;\n  cursor: pointer;\n}\n\n#form {\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n  height: auto;\n  align-items: center;\n}\n\n#footer {\n  height: 50px;\n  width: 98.5%;\n  border: 3px solid black;\n  margin-top: 200px;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\n  padding: 0;\n}\n\nbody {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  color: white;\n  width: 100%;\n  height: auto;\n}\n\nheader {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 90%;\n  border: 2px solid#0f9b0f;\n  font-size: 25px;\n  border-radius: 10px;\n  height: 100px;\n  margin: auto;\n}\n\n#container {\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n  justify-content: space-around;\n  height: auto;\n  width: 100%;\n}\n\n#list {\n  display: flex;\n  flex-direction: column;\n  width: auto;\n  align-items: flex-end;\n  margin-left: 50px;\n}\n\n#names {\n  width: 35vw;\n  max-height: 390px;\n  padding: 10px;\n  overflow-y: scroll;\n}\n\n#names li {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  list-style: none;\n  border-radius: 10px;\n  margin-bottom: 8px;\n  height: 40px;\n  width: 99%;\n  border: 0.5px solid black;\n  color: rgb(43, 77, 77);\n  background-color: whitesmoke;\n}\n\n#names li:nth-child(even) {\n  background-color: rgb(141, 179, 179);\n  border: 0.5px solid black;\n  color: rgb(222, 241, 241);\n}\n\n#names li:hover {\n  transform: scale(1.04);\n}\n\n.span {\n  margin-left: 10px;\n}\n\n#L-con {\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n  justify-content: space-between;\n  width: 100%;\n}\n\n#L-con button {\n  height: auto;\n  width: auto;\n  padding: 9px;\n  border: 3px solid black;\n  border-radius: 4px;\n  background-color: transparent;\n  cursor: pointer;\n}\n\n#add {\n  display: flex;\n  flex-direction: column;\n  width: auto;\n  height: auto;\n  align-items: flex-end;\n}\n\n#add h2 {\n  display: flex;\n  justify-content: center;\n  width: 100%;\n}\n\n#add input {\n  margin-bottom: 10px;\n  width: 40vw;\n  height: 2.5vw;\n  border-radius: 50px;\n  padding-left: 15px;\n}\n\n#add button {\n  width: auto;\n  height: auto;\n  padding: 9px;\n  border: 4px solid #4c4177;\n  color: wheat;\n  border-radius: 25px;\n  background-color: #4c4177;\n  cursor: pointer;\n}\n\n#form {\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n  height: auto;\n  align-items: center;\n}\n\n#f-Con {\n  display: flex;\n  justify-content: center;\n  width: 100%;\n}\n\n#footer {\n  height: 50px;\n  width: 90%;\n  border-radius: 50px;\n  border: 2px solid #0f9b0f;\n  animation-name: en-large;\n  animation-duration: 1000ms;\n  animation-fill-mode: both;\n  animation-direction: alternate-reverse;\n  animation-iteration-count: infinite;\n}\n\n@keyframes en-large {\n  0% {\n    border: 2px solid transparent;\n  }\n\n  100% {\n    border: 2px solid #0f9b0f;\n  }\n\n  0% {\n    border: 2px solid transparent;\n  }\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -474,25 +479,65 @@ module.exports = function (cssWithMappingToString) {
 
 /***/ }),
 /* 11 */
+/***/ ((module) => {
+
+
+
+module.exports = function (url, options) {
+  if (!options) {
+    options = {};
+  }
+
+  if (!url) {
+    return url;
+  }
+
+  url = String(url.__esModule ? url.default : url); // If url is already wrapped in quotes, remove them
+
+  if (/^['"].*['"]$/.test(url)) {
+    url = url.slice(1, -1);
+  }
+
+  if (options.hash) {
+    url += options.hash;
+  } // Should url be wrapped?
+  // See https://drafts.csswg.org/css-values-3/#urls
+
+
+  if (/["'() \t\n]|(%20)/.test(url) || options.needQuotes) {
+    return "\"".concat(url.replace(/"/g, '\\"').replace(/\n/g, "\\n"), "\"");
+  }
+
+  return url;
+};
+
+/***/ }),
+/* 12 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "4e62bb5f2a3d981d88df.gif";
+
+/***/ }),
+/* 13 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(12);
+/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(14);
 /* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__);
 // Imports
 
-var ___HTML_LOADER_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(13), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(15), __webpack_require__.b);
 // Module
 var ___HTML_LOADER_REPLACEMENT_0___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_0___);
-var code = "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n  <meta charset=\"UTF-8\">\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <link rel=\"stylesheet\" href=\"" + ___HTML_LOADER_REPLACEMENT_0___ + "\">\n  <title>LearderBoard</title>\n</head>\n\n<body>\n  <header>\n  </header>\n  <h1 class=\"hello\" id=\"ip\">LearderBoard</h1>\n  <section id=\"container\">\n    <div id=\"list\">\n      <div id=\"L-con\">\n        <h2>\n          Recent scores\n        </h2>\n        <button id=\"refresh\">\n          Refresh\n        </button>\n      </div>\n      <ul id=\"names\"></ul>\n    </div>\n    <div id=\"add\">\n      <h2>\n        Add your score\n      </h2>\n      <form id=\"form\">\n        <input type=\"text\" placeholder=\"Your name\" id=\"name\">\n        <input type=\"text\" placeholder=\"Your score\" id=\"score\">\n        <button id=\"submit\">\n          Submit\n        </button>\n      </form>\n    </div>\n  </section>\n  <footer id=\"footer\">\n  </footer>\n</body>\n\n</html>";
+var code = "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n  <meta charset=\"UTF-8\">\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <link rel=\"stylesheet\" href=\"" + ___HTML_LOADER_REPLACEMENT_0___ + "\">\n  <title>LearderBoard</title>\n</head>\n\n<body>\n  <header>\n    <h1>LearderBoard</h1>\n  </header>\n  <section id=\"container\">\n    <div id=\"list\">\n      <div id=\"L-con\">\n        <h2>\n          Recent scores\n        </h2>\n        <button id=\"refresh\">\n          Refresh\n        </button>\n      </div>\n      <ul id=\"names\"></ul>\n    </div>\n    <div id=\"add\">\n      <h2>\n        Add your score\n      </h2>\n      <form id=\"form\">\n        <input type=\"text\" placeholder=\"Your name\" id=\"name\" pattern=\"[A-Za-z]\" minlength=\"3\" maxlength=\"10\" required>\n        <input type=\"number\" placeholder=\"Your score\" id=\"score\" maxlength=\"3\" required>\n        <button type=\"button\" id=\"submit\">\n          Submit\n        </button>\n      </form>\n    </div>\n  </section>\n  <div id=\"f-Con\">\n    <footer id=\"footer\">\n    </footer>\n  </div>\n</body>\n\n</html>";
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (code);
 
 /***/ }),
-/* 12 */
+/* 14 */
 /***/ ((module) => {
 
 
@@ -523,13 +568,13 @@ module.exports = function (url, options) {
 };
 
 /***/ }),
-/* 13 */
+/* 15 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "57011448dc08b9372b5e.css";
 
 /***/ }),
-/* 14 */
+/* 16 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -540,7 +585,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/xJG2mdwj5m9C9rOtT2IJ/scores/';
 const ul = document.getElementById('names');
-function displayScores(list) {
+const foot = document.getElementById('footer');
+
+const classList = [
+  'primary',
+  'secondary',
+  'success',
+  'danger',
+  'warning',
+  'info',
+  'light',
+  'dark',
+];
+
+const displayScores = (list) => {
   ul.textContent = '';
   list.forEach((score) => {
     const li = document.createElement('li');
@@ -552,8 +610,15 @@ function displayScores(list) {
     userScore.className = 'span';
     li.append(userName, userScore);
     ul.appendChild(li);
+    const today = new Date();
+    const date = `${today.getFullYear()}-${today.getMonth() + 1}-${today.getDate()}`;
+    const time = `${today.getHours()}:${today.getMinutes()}:${today.getSeconds()}`;
+    const dateTime = `${date} ${time}`;
+
+    foot.innerText = dateTime;
   });
-}
+};
+
 const getScores = async () => {
   const response = await fetch(url);
   const scores = await response.json();
@@ -575,6 +640,7 @@ const addScore = async () => {
   document.querySelector('#name').value = '';
   document.querySelector('#score').value = '';
 };
+
 
 
 /***/ })
@@ -685,8 +751,8 @@ var __webpack_exports__ = {};
 (() => {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
-/* harmony import */ var _build_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(11);
-/* harmony import */ var _API_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(14);
+/* harmony import */ var _build_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(13);
+/* harmony import */ var _API_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(16);
 
 
 
@@ -702,6 +768,7 @@ document.getElementById('refresh').addEventListener('click', (e) => {
   e.preventDefault();
   (0,_API_js__WEBPACK_IMPORTED_MODULE_2__.getScores)();
 });
+
 })();
 
 /******/ })()
