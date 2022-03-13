@@ -1,5 +1,6 @@
-![screenshot](https://github.com/hamid-murambiwa/Leaderboard-img/blob/main/Screenshot%202021-11-12%20at%2015.11.09.png)
 # Leaderboard
+
+![screenshot](https://github.com/hamid-murambiwa/Leaderboard-img/blob/main/Screenshot%202021-11-12%20at%2015.11.09.png)
 
 > This project was built for Microverse [under these guidance objectives]()
 > _note: you can only access this link if you're a Micronault (Microverse Student)_
@@ -16,24 +17,29 @@ In this project I had to set up a JavaScript project for the Leaderboard list ap
 ## Getting Started
 > To get started:
 > clone the repo...
-
-  `git clone https://github.com/hamid-murambiwa/Leaderboard.git`
+```
+  git clone https://github.com/hamid-murambiwa/Leaderboard.git
+```
 
 > navigate to repo dir...
-
-  ```cd toDoList```
+```
+  cd toDoList
+```
 
 > install project dependencies
-
-  ```npm install```
+```
+  npm install
+```
 
 > build project
-
-  ```npm run build```
+```
+  npm run build
+```
 
 > start project
-
-  ```npm start```
+```
+  npm start
+```
 
 ## Authors
 
@@ -44,10 +50,17 @@ In this project I had to set up a JavaScript project for the Leaderboard list ap
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
+>Contributions, issues, and feature requests are welcome!
+>Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
+>Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- This project built in Microverse's Fourth Module's Capstone.
+
+## 📝 License
+
+>This project is [MIT](./MIT.md) licensed.
