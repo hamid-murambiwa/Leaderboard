@@ -1,5 +1,5 @@
 {
-  "name": "toDoList",
+  "name": "leaderboard",
   "version": "1.0.0",
   "description": "",
   "private": true,
@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Chimwemwe-127001/toDoList.git"
+    "url": "https://github.com/hamid-murambiwa/Leaderboard.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Chimwemwe-127001/toDoList/issues"
+    "url": "https://github.com/hamid-murambiwa/Leaderboard/issues"
   },
-  "homepage": "https://github.com/Chimwemwe-127001/toDoList#readme",
+  "homepage": "https://github.com/hamid-murambiwa/Leaderboard/blob/dev/README.md",
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.16.0",
     "@webpack-cli/serve": "^1.6.1",
